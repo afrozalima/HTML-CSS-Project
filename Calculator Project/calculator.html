@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        h1{
+            font-weight: bold;
+            text-align: center;
+            font-size: 2rem;
+
+        }
+        .calc{
+height: 300px;
+width:250px;
+text-align: center;
+margin:0 auto;
+box-sizing: border-box;
+box-shadow: 5px 5px 5px white;
+background-color:whitesmoke;
+        }
+        .cal-head{
+            box-sizing: border-box;
+            border:2px;
+            
+            padding:0;
+            margin:0;
+        }
+        .head{
+           
+            height:40px;
+            width:240px;
+            text-align: right;
+            color:black;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 1.5rem;
+           
+        }
+        .cal-body{
+            box-shadow: 3px 3px 3px white;
+            box-sizing: border-box;
+        }
+        .bu{
+            height:50px;
+            width:56px;
+            padding: 2px;
+            margin: 1px;
+            box-sizing: border-box;
+            box-shadow: 3px 3px 3px white;
+           background-color: black;
+            color:white;
+            font-weight: bold;
+        }
+        .li{
+            background-color: purple;
+        }
+
+       .bu:hover{
+        background-color: teal;
+        box-shadow: 0 8px 16px white;
+       }
+
+
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="calc"> 
+        <div class="cal-head">
+            <input type="text" class="head" maxlength="15">
+        </div>
+        <div class="cal-body">
+           
+            <input type="button" value="C" class="bu">
+            <input type="button" value="+/-" class="bu li">
+            <input type="button" value="%" class="bu li">
+            <input type="button" value="/" class="bu li">
+        <div class="cal-body">
+           
+            <input type="button" value="7" class="bu">
+            <input type="button" value="8" class="bu">
+            <input type="button" value="9" class="bu">
+            <input type="button" value="X" class="bu li">
+
+        <div class="cal-body">
+           
+            <input type="button" value="4" class="bu">
+            <input type="button" value="5" class="bu">
+            <input type="button" value="6" class="bu">
+            <input type="button" value="-" class="bu li">
+
+        <div class="cal-body">
+           
+            <input type="button" value="1" class="bu">
+            <input type="button" value="2" class="bu">
+            <input type="button" value="3" class="bu">
+            <input type="button" value="+" class="bu li" >
+
+        <div class="cal-body">
+           
+            <input type="button" value="0" class="bu">
+            <input type="button" value="." class="bu li">
+            <input type="button" value="DEL" class="bu">
+            <input type="button" value="=" class="bu" style="background-color: orange;">
+        </div>
+
+    </div>
+</body>
+</html>
